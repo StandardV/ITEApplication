@@ -45,7 +45,7 @@ class wind(ct.CTk):
         #secondframe
         self.MainFrame= ct.CTkFrame(self,fg_color='transparent')
         self.MainFrame.grid(row=0,column=1,sticky='nsew')
-        self.MainFrame.grid_rowconfigure((0,1,6), weight=1)
+        self.MainFrame.grid_rowconfigure((0,1,5,6), weight=1)
         self.MainFrame.grid_columnconfigure((0), weight=1)
         self.sortratio=ct.CTkOptionMenu(master=self.MainFrame, values=["Not Yet Applied", "Nearest Reset Time","Applied", "Furthest Reset Time","Lexicographically"],command=self.sortevent)
         self.sortratio.grid(row=0,column=0,pady=(20,0),sticky='n')
