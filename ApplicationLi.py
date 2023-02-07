@@ -48,7 +48,7 @@ class wind(ct.CTk):
         self.MainFrame.grid_columnconfigure((0), weight=1)
         self.sortratio=ct.CTkOptionMenu(master=self.MainFrame, values=["Not Yet Applied", "Nearest Reset Time","Applied", "Furthest Reset Time","Lexicographically"],command=self.sortevent)
         self.sortratio.grid(row=0,column=0,pady=20,sticky='n')
-        self.typer= ct.CTkTextbox(master=self.MainFrame,corner_radius=10,height=200,)
+        self.typer= ct.CTkTextbox(master=self.MainFrame,corner_radius=10,height=350)
         self.typer.grid(row=1,column=0,padx=(10,10),sticky='nsew')
         self.submit1=ct.CTkButton(master=self.MainFrame,text="Submit",corner_radius=10)
         self.submit1.grid(row=3,column=0,pady=10,sticky='ns')
