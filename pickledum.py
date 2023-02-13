@@ -7,7 +7,7 @@ dictime={}
 with open(r"D:\Largecodefile\TkinterApply\List1.txt",'r') as f:
     Lines=f.read().splitlines()        
 for i,val in enumerate(Lines):
-    dictoggle[val]=False# IMPLEMENT THIS INTO THE FUNCTION AS WELL, FOR BEST USE PUT THE LIST IN HERE AS WELL
+    dictoggle[val]=False
     dictime[val]=0
     dicposition[val]=i
 
