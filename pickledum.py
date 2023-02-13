@@ -7,11 +7,9 @@ dictime={}
 with open(r"D:\Largecodefile\TkinterApply\List1.txt",'r') as f:
     Lines=f.read().splitlines()        
 for i,val in enumerate(Lines):
-    dictoggle[val]=False
+    dictoggle[val]=False# IMPLEMENT THIS INTO THE FUNCTION AS WELL, FOR BEST USE PUT THE LIST IN HERE AS WELL
     dictime[val]=0
     dicposition[val]=i
-
-
 
 Li=[dictoggle,dicposition,dictime]
 
@@ -26,4 +24,5 @@ with open(r"D:\Largecodefile\TkinterApply\dictionstoring.txt", "rb") as k:#dicti
 print(len(GroupedLi))
 dictoggle,dicposition,dictime=GroupedLi[0],GroupedLi[1],GroupedLi[2]
 scanli=[i for i in dictoggle if dictoggle[i] == True]
-print(scanli)
+print(Lines)
+
