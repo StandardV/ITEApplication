@@ -14,6 +14,8 @@ ct.set_default_color_theme("green")  # Themes: "blue" (standard), "green", "dark
 dictoggle={};dicposition={};dictime={}#for the purpose of sorting and toggling logic
 GroupedLi=[]
 
+
+
 class wind(ct.CTk):
     
     def __init__(self):
