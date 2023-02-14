@@ -29,4 +29,6 @@ You can look for companies, apply to those and turn the switch box on, here I've
 - Delete dialogue box keep hoping around (Planning to change this later)
 - Limit input length in 1 line of entry (since longer is possible but you'll only be able to see limited information display on switches anyway)
 - Perhaps place holder text for the middle input box?
+- Input sorting to avoid replicate
+- Add location sorting (Check for nearest state)
 - And uhh, I'm still thiking
