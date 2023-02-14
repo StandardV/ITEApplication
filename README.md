@@ -21,7 +21,7 @@ And this would be Applied filter:
 ![Screenshot (178)](https://user-images.githubusercontent.com/76143641/218627076-c76d462c-7842-4c2d-ba67-bea973c99422.png)
 
 ### Details explaination:
-You can look for companies, apply to those and turn the switch box on, here I've set the time each switch box turn off by itself would be 6480000sec, IE: 2 months and a half, to which I think would be the standard time that you could re apply (NOTEEEE: the Delete Content box can only delete one by one tho, and it have to be the right name + (Location), I did this to prevent mass deleting )
+You can look for companies, apply to those and turn the switch box on, here I've set the time each switch box turn off by itself would be 6480000sec, IE: 2 months and a half, to which I think would be the standard time that you could re apply (NOTEEEE: the Delete Content box can only delete one by one tho, and it has to be the right name + (Location), I did this to prevent mass deleting )
 
 ![Screenshot (179)](https://user-images.githubusercontent.com/76143641/218627146-a4f158a9-1fb9-4344-be69-16456af6589e.png)
 
