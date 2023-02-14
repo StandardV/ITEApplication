@@ -15,7 +15,7 @@ Default color mode: Dark (switchable between dark, light)
 
 I've put one hundred companies up there first just for you guys to experience it out, you could pull request and add more tho :) I don't mind (Easiest is just to go to Chat-gpt and ask for a list from it, chat-gpt tend to give replicate result a lot but nothing a filtering tool won't fix Note: I've not make it tho, check {What will be improve})
 
-![Screenshot (178)](https://user-images.githubusercontent.com/76143641/218625474-3b37f745-1e88-476b-8782-f309cc134780.png)
+![Screenshot (177)](https://user-images.githubusercontent.com/76143641/218628241-7f2870ee-8929-4114-9cd6-355c955db251.png)
 
 And this would be Applied filter:
 ![Screenshot (178)](https://user-images.githubusercontent.com/76143641/218627076-c76d462c-7842-4c2d-ba67-bea973c99422.png)
