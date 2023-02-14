@@ -13,16 +13,17 @@ for i,val in enumerate(Lines):
 
 Li=[dictoggle,dicposition,dictime]
 
-with open(r"D:\Largecodefile\TkinterApply\dictionstoring.txt", "wb") as k:
+with open(r"D:\Largecodefile\TkinterApply\dictionstoring.txt", "wb") as k:#Store Dictionaries data, this process should only happen once when set up
     print('accessed')
     pickle.dump(Li, k)
 
-GroupedLi=[];scanli=[]
+#GroupedLi=[];scanli=[]
+#with open(r"D:\Largecodefile\TkinterApply\dictionstoring.txt", "rb") as k:#dictionary to keep track of true false state
+#    GroupedLi=pickle.load(k)
+#print(len(GroupedLi))
+#dictoggle,dicposition,dictime=GroupedLi[0],GroupedLi[1],GroupedLi[2]
+#scanli=[i for i in dictoggle if dictoggle[i] == True]
 
-with open(r"D:\Largecodefile\TkinterApply\dictionstoring.txt", "rb") as k:#dictionary to keep track of true false state
-    GroupedLi=pickle.load(k)
-print(len(GroupedLi))
-dictoggle,dicposition,dictime=GroupedLi[0],GroupedLi[1],GroupedLi[2]
-scanli=[i for i in dictoggle if dictoggle[i] == True]
-print(Lines)
+#Able to use the above line to load back the file and check for stored data
+
 
