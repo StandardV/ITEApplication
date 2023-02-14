@@ -25,7 +25,7 @@ You can look for companies, apply to those and turn the switch box on, here I've
 ![Screenshot (179)](https://user-images.githubusercontent.com/76143641/218627146-a4f158a9-1fb9-4344-be69-16456af6589e.png)
 
 ## What will be improve
-Delete dialogue box keep hoping around (Planning to change this later)
-Limit input length in 1 line of entry (since longer is possible but you'll only be able to see limited information display on switches anyway)
-Perhaps place holder text for the middle input box?
-And uhh, I'm still thiking
+- Delete dialogue box keep hoping around (Planning to change this later)
+- Limit input length in 1 line of entry (since longer is possible but you'll only be able to see limited information display on switches anyway)
+- Perhaps place holder text for the middle input box?
+- And uhh, I'm still thiking
