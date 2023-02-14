@@ -1,5 +1,4 @@
 import tkinter
-import tkinter.messagebox
 import customtkinter as ct
 from ctk_entryframe import CTkEntryFrame
 import ApplicationSorter
@@ -8,13 +7,22 @@ import time
 
 Waittime=6480000#Time Range that program will toggled off already marked companies by itself so that you could reapply
 States='Lexicographically'
+Name='Vuong Duong' #Change this for changing users name
+
+
+
+PathList1=r"D:\Largecodefile\TkinterApply\List1.txt"#This path point to List1
+PathLog1=r"D:\Largecodefile\TkinterApply\Logging.txt"#This path point to Log file
+PathDiction1=r"D:\Largecodefile\TkinterApply\dictionstoring.txt"# This path point to dictionstoring
+
+
+
+
 
 ct.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
 ct.set_default_color_theme("green")  # Themes: "blue" (standard), "green", "dark-blue"
 dictoggle={};dicposition={};dictime={}#for the purpose of sorting and toggling logic
 GroupedLi=[]
-
-
 
 class wind(ct.CTk):
     
@@ -36,7 +44,7 @@ class wind(ct.CTk):
         self.SideFrame.grid_rowconfigure(1,weight=1)
 
         
-        self.logo_label = ct.CTkLabel(master=self.SideFrame, text="Vuong Duong", font=ct.CTkFont(size=20, weight="bold"))
+        self.logo_label = ct.CTkLabel(master=self.SideFrame, text=Name, font=ct.CTkFont(size=20, weight="bold"))
         self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
         self.scrollable_frame = ct.CTkScrollableFrame(master=self.SideFrame, label_text="Application List")
         self.scrollable_frame.grid(row=1, column=0,rowspan=4,columnspan=4, padx=(0, 0), pady=(10, 0), sticky="nsew")
@@ -44,7 +52,7 @@ class wind(ct.CTk):
 
         self.scrollable_frame_switches = []
         #scrollable list content
-        with open(r"D:\Largecodefile\TkinterApply\List1.txt",'r') as f:
+        with open(PathList1,'r') as f:
             self.Lines=f.read().splitlines()        
         for i,val in enumerate(self.Lines):
             switch = ct.CTkSwitch(master=self.scrollable_frame, text=val,command=lambda charac=val , index=i: self.changestate(charac,index))#lambda index=i: self.changestate(index)
@@ -82,14 +90,14 @@ class wind(ct.CTk):
         self.SideBox1.grid(row=1,column=0,padx=10,pady=(0.20),sticky='nsew')
 
         #log content
-        with open(r"D:\Largecodefile\TkinterApply\Logging.txt",'r') as f:
+        with open(PathLog1,'r') as f:
             Lines2=f.readlines()
             curprint="".join(Lines2)
             self.SideBox1.insert("0.0",curprint)
             self.SideBox1.configure(state='disabled')
 
         #Retrieve Pickle dictionary data  for True and False state of Switch
-        with open(r"D:\Largecodefile\TkinterApply\dictionstoring.txt", "rb") as f:#dictionary to keep track of true false state
+        with open(PathDiction1, "rb") as f:#dictionary to keep track of true false state
             GroupedLi=pickle.load(f)
         times=time.time()
         dictoggle,dicposition,dictime=GroupedLi[0],GroupedLi[1],GroupedLi[2]
@@ -112,7 +120,7 @@ class wind(ct.CTk):
         if len(self.typer.get("1.0",'end-1c'))>0:
             temp=[part for part in self.typer.get("1.0",'end-1c').split('\n') if part != '']#list comprehension to extract list from provided data that are turned into string by CTk
             print(temp)
-            with open(r"D:\Largecodefile\TkinterApply\List1.txt",'a') as f:
+            with open(PathList1,'a') as f:
                 for i in temp:
                     f.write(f'{i}\n')
                     dictoggle[i]=False;dictime[i]=0#modify dictime and dictoggle
@@ -121,7 +129,7 @@ class wind(ct.CTk):
             self.typer.delete("1.0",'end')
             self.Lines, dicposition=ApplicationSorter.sortLexico()#ADD IN Dicposition
             Li=[dictoggle,dicposition,dictime]
-            with open(r"D:\Largecodefile\TkinterApply\dictionstoring.txt", "wb") as k:
+            with open(PathDiction1, "wb") as k:
                 print('accessed')
                 pickle.dump(Li, k)
             self.sortevent(States)
@@ -155,7 +163,7 @@ class wind(ct.CTk):
 
 
     def logging(self, logger):
-        with open(r"D:\Largecodefile\TkinterApply\Logging.txt",'a') as f:#change from 'a' to 'w' if prefre one-time logfile, IE session log, meaning full log will not exist when program end
+        with open(PathLog1,'a') as f:#change from 'a' to 'w' if prefre one-time logfile, IE session log, meaning full log will not exist when program end
             self.SideBox1.configure(state='normal')
             f.writelines(logger)
 
@@ -180,7 +188,7 @@ class wind(ct.CTk):
                         log=f'Deleted all instances of "{temp}" from the System\n\n'
                         self.logging(log)
                         Li=[dictoggle,dicposition,dictime]
-                        with open(r"D:\Largecodefile\TkinterApply\dictionstoring.txt", "wb") as k:
+                        with open(PathDiction1, "wb") as k:
                             print('accessed')
                             pickle.dump(Li, k)
                         self.sortevent(States)
@@ -189,7 +197,7 @@ class wind(ct.CTk):
             else:
                 print('value canceled')
                 break
-        # COME BACK HERE SORT OUT THE DIAGLOGE KEEP DISAPPEAR AFTER PRESS OKAY
+
     
     def changestate(self,val,index):#toggle switch
         dictoggle[val]=not dictoggle[val]
@@ -200,7 +208,7 @@ class wind(ct.CTk):
         else:
             dictime[val]=0
         GroupedLi=[dictoggle,dicposition,dictime]
-        with open(r"D:\Largecodefile\TkinterApply\dictionstoring.txt", "wb") as f:
+        with open(PathDiction1, "wb") as f:
             pickle.dump(GroupedLi, f)
 
     
