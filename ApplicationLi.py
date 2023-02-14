@@ -20,7 +20,7 @@ class wind(ct.CTk):
         global dictoggle,dicposition,dictime,GroupedLi,States
         super().__init__()
         
-        self.title("RandomBullshatGO")
+        self.title("ITEApplication.py")
         self.geometry(f"{1100}x{580}")
         #self.resizable(False, False)
  
