@@ -2,59 +2,5 @@ Hi there, User!
 This log will store history of all what you did, so WATCHOUT!!!! 
 Jk, feel free to explore around :) (log data will show on top within session tho)
 
-Switched value of 8th Wall (Houston) to True
 
-Switched value of 8th Wall (Houston) to False
-
-Switched value of Argonauts (Houston) to True
-
-Switched value of Argonauts (Houston) to False
-
-Switched value of AVEVA (Houston) to True
-
-Switched value of AVEVA (Houston) to False
-
-Switched value of BGC Partners (Houston) to True
-
-Switched value of BGC Partners (Houston) to False
-
-Switched value of Call4Fix (Houston) to True
-
-Switched value of Call4Fix (Houston) to False
-
-Switched value of Call4Fix (Houston) to True
-
-Switched value of Call4Fix (Houston) to False
-
-Switched value of Cayan (Houston) to True
-
-Switched value of Cayan (Houston) to False
-
-Switched value of AgileThought (Houston) to True
-
-Switched value of AgileThought (Houston) to False
-
-Switched value of 8th Wall (Houston) to True
-
-Switched value of 8th Wall (Houston) to False
-
-Switched value of 8th Wall (Houston) to True
-
-Switched value of 8th Wall (Houston) to False
-
-Switched value of Argonauts (Houston) to True
-
-Switched value of Argonauts (Houston) to False
-
-Switched value of Argonauts (Houston) to True
-
-Switched value of Argonauts (Houston) to False
-
-Switched value of AVEVA (Houston) to True
-
-Switched value of AVEVA (Houston) to False
-
-Switched value of AVEVA (Houston) to True
-
-Switched value of AVEVA (Houston) to False
 
