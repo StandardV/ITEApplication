@@ -10,7 +10,7 @@ The program(Application.Li) is already ready to use once you alter the paths fil
 However, for those who encountered problems from Keyerror to list out of range ..etc. Pickledum is the debug file, change the file path within it (similar to the 2 other programs) and run it once, it will fix the wrong information stored within "dictionstoring", but just once and don't run it again because it will reset what you did to the initial state.
 
 
-#Demonstration.
+# Demonstration.
 Default color mode: Dark (switchable between dark, light)
 
 I've put one hundred companies up there first just for you guys to experience it out, you could pull request and add more tho :) I don't mind (Easiest is just to go to Chat-gpt and ask for a list from it, chat-gpt tend to give replicate result a lot but nothing a filtering tool won't fix Note: I've not make it tho, check {What will be improve})
