@@ -7,7 +7,7 @@ Required Libraries: tkinter, customtkinter, pickle, time
 
 The program ("Application.Li") is already ready to use once you download the zip file and extract it (Download button at top right corner)
 
-However, for any problems that may occur, "pickledum" is the debug file, just run it once, it will fix the wrong information stored within "dictionstoring", but just once and don't run it again because it will reset what you did (All of the data) to the initial state.
+However, for any problems that may occur, "pickledum" is the debug file, just run it once, it will fix the wrong information stored within "dictionstoring", but just once and don't run it again because it will reset what you did (all of the switches) to the initial state.
 
 
 # Demonstration.
