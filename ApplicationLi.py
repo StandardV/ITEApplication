@@ -1,4 +1,4 @@
-import tkinter
+import os
 import customtkinter as ct
 from ctk_entryframe import CTkEntryFrame
 import ApplicationSorter
@@ -11,9 +11,9 @@ Name='Vuong Duong' #Change this for changing users name
 
 
 
-PathList1=r"D:\Largecodefile\TkinterApply\List1.txt"#This path point to List1
-PathLog1=r"D:\Largecodefile\TkinterApply\Logging.txt"#This path point to Log file
-PathDiction1=r"D:\Largecodefile\TkinterApply\dictionstoring.txt"# This path point to dictionstoring
+PathList1=os.path.join(os.path.dirname(__file__), "List1.txt")#This path point to List1
+PathLog1=os.path.join(os.path.dirname(__file__), "Logging.txt")#This path point to Log file
+PathDiction1=os.path.join(os.path.dirname(__file__), "dictionstoring.txt")# This path point to dictionstoring
 
 
 
