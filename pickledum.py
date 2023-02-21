@@ -1,10 +1,11 @@
 import pickle
 import time
+import os
 Li=[]
 dictoggle={}
 dicposition={}
 dictime={}
-with open(r"D:\Largecodefile\TkinterApply\List1.txt",'r') as f:
+with open(os.path.join(os.path.dirname(__file__), "List1.txt"),'r') as f:
     Lines=f.read().splitlines()        
 for i,val in enumerate(Lines):
     dictoggle[val]=False
