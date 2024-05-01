@@ -48,22 +48,5 @@ with open(csv_path, mode='w', newline='') as file:
     # Writing data
     for item in links:
         writer.writerow([item])
-#prioritize mainsite, linkedin. not some review site
-#run j to an llm, pick out legitimate option, might be 2, if need more the system can assign point and extend it to be 3
-#can take full view of page for llm to analyze too to see if it lead to the right one, but it's optional and can be use for auto apply task
-
-#LINK_LIST = '\n'.join(str(links))
-
-
-# prompt = f"inspect these link and give me top 3 link classified into orders, 1st: company career page , 2nd: company linkedin(both main page and career page is acceptable), 3rd: company direct websitethe company name is : {QUERY} link list{LINK_LIST}do remember to parse the site and verify, not just check the hyperlinkdo verify company career page location if within US, if not, discard, if doubt : put a mark (might not be in US)do not out put unecessary details, just what you're asked to do"
-
-# chat_completion = client.chat.completions.create( 
-# 	messages = [ {"role": "system",
-#                	  "content":  prompt} ],                   
-                                      
-# 	model="gpt-3.5-turbo"
-# ) 
-
-# print(chat_completion.choices[0].message.content) 
 
 
