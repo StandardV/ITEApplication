@@ -1504,3 +1504,97 @@ Switched value of 8th Wall (Houston) to True
 
 OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to False
 
+Switched value of 8th Wall (Houston) to False
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of Adept Technology (Nationwide) to True
+
+
+OthersCompany Career PageSwitched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+
+OthersCompany Career Page
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to False
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to True
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to False
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of Adept Technology (Nationwide) to True
+
+
+OthersCompany Career PageSwitched value of Adept Technology (Nationwide) to False
+
+
+OthersCompany Career PageSwitched value of Accenture (Global) to True
+
+
+OthersCompany LinkedInCompany Career PageSwitched value of Accenture (Global) to False
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Accenture (Nationwide) to False
+
+
+OthersCompany LinkedInCompany Career Page
+OthersCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to True
+
+
+OthersCompany LinkedInCompany Career Page
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to False
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of AgileThought (Houston) to True
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of AgileThought (Houston) to False
+
+Switched value of Adobe (Global) to True
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of Adept Technology (Nationwide) to True
+
+
+Company Direct WebsiteCompany Career Page
+OthersSwitched value of Adobe (Global) to False
+
+Company Career PageSwitched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+
+Company Direct WebsiteCompany Career PageSwitched value of Accenture (Global) to True
+
+
+OthersSwitched value of 8th Wall (Houston) to False
+
+Company Career Page
+OthersCompany Direct WebsiteCompany LinkedInCompany Career Page
+OthersCompany LinkedInCompany Career Page
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of Accenture (Global) to False
+
+
+OthersCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to True
+
+Switched value of Accenture (Global) to True
+
+Switched value of 8th Wall (Houston) to False
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career Page
+OthersCompany LinkedInCompany Career PageSwitched value of Accenture (Global) to False
+
+Switched value of Accenture (Nationwide) to True
+
+
+OthersCompany LinkedInCompany Career PageSwitched value of Accenture (Nationwide) to False
+
+Switched value of Black Pearl Technology (Global) to True
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career Page

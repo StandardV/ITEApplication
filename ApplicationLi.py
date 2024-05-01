@@ -346,7 +346,8 @@ class GOTOWORKPEOPLE(ct.CTk):
 
     def startthread(self,val,index):#toggle switch
         """Change state in company tick box"""
-        self.dictoggle[val]=not self.dictoggle[val]
+        self.dictoggle[val]= not self.dictoggle[val]#switch the on state to off
+
         log=f'Switched value of {val} to {self.dictoggle[val]}\n\n'
         #run company name from here to link select model
         #do a call that check for current DEFAULT_CHECK_OPTION here to do function
@@ -354,10 +355,10 @@ class GOTOWORKPEOPLE(ct.CTk):
         if self.dictoggle[val] is True:
             self.dictime[val]=time.time()+self.wait_time#assign auto turning off time
 
-        try:
-            self.display_company_classification(val)
-        except Exception as e:
-            print('exception at',e)
+            try:
+                self.display_company_classification(val)
+            except Exception as e:
+                print('exception at',e)
 
         else:
             self.dictime[val]=0
