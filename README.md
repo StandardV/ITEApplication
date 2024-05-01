@@ -28,7 +28,7 @@ Future iteration: (Auto-apply..)
 
 ![Screenshot (179)](https://user-images.githubusercontent.com/76143641/218627146-a4f158a9-1fb9-4344-be69-16456af6589e.png)
 
-###How it work
+### How it work
 Left panel is where company application are tracked, by pressing this, it will save them to log and index company name for website ranking from google
 Links to companies sites will show up after going through parsing and classification (Note: need internet)
 
@@ -39,6 +39,8 @@ the middle text box in the middle is used to add in value:
   Apple (Global)
   **Press submit**
   
+
+
 Right panel is log and mode selection, it will display what you did from toggling to submiting, apply mode at bottom right is for link display mode, display all and top display is reccomended, auto open page still need improving on classification but would still work
 
 ## What will be improve
