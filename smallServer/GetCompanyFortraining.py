@@ -1,15 +1,14 @@
 """Pull company from file out to run through link search"""
 import csv
 from googlesearch import search
-
+import os
 #from openai import OpenAI
 
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# to search
-#client = OpenAI( api_key = "sk-proj-R7PFo3IrqlgPLe3Gr8KhT3BlbkFJQqg1LMLp7mvcWmuR3176")
-PathList1=r"D:\Largecodefile\TkinterApply\List1.txt"#This path point to List1
-csv_path = r"C:\Users\duong\OneDrive\Desktop\Automations\Webdevelopment\Largecodefile\smallServer\DatasetCompany.csv"
+PathList1 = os.path.join(current_dir, "List1.txt")
+csv_path = os.path.join(current_dir, "DatasetCompany.csv")
 
 QUERY = "BlackPearl Technology"
 QUERY_ADD = " careers"
