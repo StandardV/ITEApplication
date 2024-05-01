@@ -1,9 +1,22 @@
+import threading
 import pickle
-import tkinter
+import os
 import time
 import customtkinter as ct
 import ApplicationSorter
+from multiprocessing import Pool
 from ctk_entryframe import CTkEntryFrame
+from smallServer import Searchfunction
+
+import webbrowser
+import winreg
+
+# try:
+#     import httplib  # python < 3.0
+# except:
+#     import http.client as httplib
+
+
 
 
 ct.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
@@ -14,21 +27,40 @@ class GOTOWORKPEOPLE(ct.CTk):
     """Provide customtkinter Gui"""
     def __init__(self):
         super().__init__()
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        #backend_path = os.path.join(current_dir,"smallServer")
+        self.name_search_function = Searchfunction.COMPANYPARSER()
+        self.hyperlink_count =0
+
         self.name='Vuong Duong' #Change this for changing users name
         self.default_state='Lexicographically'
         self.default_check_option = "Display all"# for applying mode
         self.wait_time=6480000#Time Range that program will toggled off
                                 #already marked companies by itself so that you could reapply
-        self.company_path=r"D:\Largecodefile\TkinterApply\List1.txt"#This path point to List1
-        self.log_path=r"D:\Largecodefile\TkinterApply\Logging.txt"#This path point to Log file
-        self.dictionary_path=r"D:\Largecodefile\TkinterApply\dictionstoring.txt"# This path point to dictionstoring
+        self.company_path= os.path.join(current_dir, "List1.txt")
+        #r"D:\Largecodefile\TkinterApply\List1.txt"#This path point to List1
+        self.log_path = os.path.join(current_dir, "Logging.txt")
+        #r"D:\Largecodefile\TkinterApply\Logging.txt"#This path point to Log file
+        self.dictionary_path = os.path.join(current_dir, "dictionstoring.txt")
+        #r"D:\Largecodefile\TkinterApply\dictionstoring.txt"# This path point to dictionstoring
         self.dictoggle={}
         self.dicposition={}
         self.dictime={}#for the purpose of sorting and toggling logic
         self.grouped_li=[]
 
+
+
+        key = winreg.OpenKey(winreg.HKEY_CLASSES_ROOT, r"HTTP\shell\open\command")
+        default_browser_path = winreg.QueryValue(key, None)
+
+        # Clean up the path (remove quotes and any additional arguments)
+        self.default_browser_path = default_browser_path.split('"')[1]
+        webbrowser.register('my_browser', None, webbrowser.BackgroundBrowser(self.default_browser_path))
+        print(self.default_browser_path)
+
+
         self.title("ITEApplication.py")
-        self.geometry(f"{1100}x{580}")
+        self.geometry(f"{1200}x{750}")
         #self.resizable(False, False)
 
         self.grid_rowconfigure(0,weight=1)
@@ -155,7 +187,8 @@ class GOTOWORKPEOPLE(ct.CTk):
         self.sort_apply_event=ct.CTkOptionMenu(master=self.SideFrame2,
                                                values=["Display all",
                                                        "Display Top Option",
-                                                       "Auto Open Page"])
+                                                       "Auto Open Page"],
+                                               command=self.parsing_event)
 
         self.sort_apply_event.grid(row=2,column=0,padx=5,pady=5,sticky='new')
 
@@ -163,6 +196,8 @@ class GOTOWORKPEOPLE(ct.CTk):
                                     text_color='gray')#right side config box  , height=150
         
         self.SideBox1.grid(row=1, column=0, padx=5, pady=(0, 0), sticky='nsew')
+        
+        #self.SideBox1.bind("<Button-1>", self.open_hyperlink)
 
         #self.right_side_box2=ct.CTkTextbox(master=self.SideFrame2,text_color='gray')#right side config box
         #self.right_side_box2.grid(row=3,column=0,padx=5,pady=(0,5),sticky='nsew')
@@ -191,7 +226,8 @@ class GOTOWORKPEOPLE(ct.CTk):
                 #self.dictime[i]=0
                 log=f'System: Toggled off value of {str(i)} since the amount of time {str(self.wait_time)} has been met\n\n'
                 self.logging(log)
-                self.scrollable_frame_switches[self.dicposition[i]].toggle()#deselect if specific time of daterange meet: in this case, set as 75 days from the time of checking   
+                self.scrollable_frame_switches[self.dicposition[i]].toggle()
+                #deselect if specific time of daterange meet: in this case, set as 75 days from the time of checking
 
 
     def trigger_testing(self):
@@ -217,6 +253,7 @@ class GOTOWORKPEOPLE(ct.CTk):
                 print('accessed')
                 pickle.dump(Li, k)
             self.sortevent(self.default_state)
+
 
         #self.logging()
     def sortevent(self,currentval):# Sorting
@@ -254,17 +291,21 @@ class GOTOWORKPEOPLE(ct.CTk):
             for i in self.scanli1:
                 self.scrollable_frame_switches[tempLi[i]].select()
 
+    def parsing_event(self, selected_value:str):
+        """switch value of auto parser for opening mode"""
+        self.default_check_option = selected_value
+        self.logging(f"Apply Mode is now{selected_value}\n\n")
 
-    def display_company_classification(self,company_name):
-        """verify company URL and run a ranking model"""
-        return 1
+
     def change_apply_mode(self,apply_mode):# Sorting
         """change apply mode for the model"""
         self.default_check_option = apply_mode
 
-    def logging(self, logger):
+    def logging(self, logger:str):
         """Write down for log info"""
-        with open(self.log_path,'a') as f:#change from 'a' to 'w' if prefre one-time logfile, IE session log, meaning full log will not exist when program end
+        with open(self.log_path,'a') as f:
+            #change from 'a' to 'w' if prefre one-time logfile,
+            # IE session log, meaning full log will not exist when program end
             self.SideBox1.configure(state='normal')
             f.writelines(logger)
 
@@ -273,14 +314,14 @@ class GOTOWORKPEOPLE(ct.CTk):
             self.SideBox1.yview_moveto(0.0)
             self.SideBox1.configure(state='disabled')
 
-    def changecolor(self,setc : str): #Set Appearance Mode
+    def changecolor(self, setc : str): #Set Appearance Mode
         """change color on application appearance"""
         ct.set_appearance_mode(setc.lower())
 
     def del_content(self):#Content Delete Function
         """pop off box to delete content"""
         while True:
-            dialog = CTkEntryFrame(text="Input Company Name:", title="Janitor")#CTkInputDialog(text="Input Company Name:", title="Janitor")
+            dialog = CTkEntryFrame(text="Input Company Name:", title="Janitor")
             temp=''
             temp=dialog.get_input()
             if temp is not None:
@@ -303,21 +344,124 @@ class GOTOWORKPEOPLE(ct.CTk):
                 break
 
 
-    def changestate(self,val,index):#toggle switch
+    def startthread(self,val,index):#toggle switch
         """Change state in company tick box"""
         self.dictoggle[val]=not self.dictoggle[val]
-        log=f'Switched value of {str(val)} to {str(self.dictoggle[val])}\n\n'
+        log=f'Switched value of {val} to {self.dictoggle[val]}\n\n'
         #run company name from here to link select model
         #do a call that check for current DEFAULT_CHECK_OPTION here to do function
         self.logging(log)
         if self.dictoggle[val] is True:
-            self.dictime[val]=time.time()+self.wait_time
+            self.dictime[val]=time.time()+self.wait_time#assign auto turning off time
+
+        try:
+            self.display_company_classification(val)
+        except Exception as e:
+            print('exception at',e)
+
         else:
             self.dictime[val]=0
         self.grouped_li=[self.dictoggle,self.dicposition,self.dictime]
         with open(self.dictionary_path, "wb") as f:
             pickle.dump(self.grouped_li, f)
 
+    def changestate(self,val,index):
+        """call thread for company name processing"""
+        thread = threading.Thread(target = self.startthread, args = (val,index),daemon=True)
+        thread.start()
+
+    def display_company_classification(self,company_name):
+        """verify company URL and run a ranking model"""
+        #search_function_results in form of a dictionary
+        search_function_results = {}
+        search_function_results = self.name_search_function.run(company_name)
+
+        #print("I came to the function")
+        match self.default_check_option:
+            case "Display all":#parse through all items and print each key values pair
+                #print("access display all")
+                #print(search_function_results)
+                self.logging("\n")#add in a space at the end for better visualization
+                for key, values in search_function_results.items():
+                    if len(values) >0:
+                        for value in values:
+                            self.insert_hyperlink(value,value)
+                        self.logging(key)
+                #development, caching the value incase it will be re-toggled
+
+
+            case "Display Top Option":
+                self.logging("\n")#add in a space at the end for better visualization
+                for key, values in search_function_results.items():
+                    if len(values) >0:
+                        self.insert_hyperlink(values[0],values[0])#sorting best later
+                        self.logging(key)
+                #pick the shortest, but also pick the most matching,
+                #      most matching should take priority
+                #display 1 of each type, prioritize the smallest len,
+
+
+                #development, caching the value incase it will be re-toggled
+
+            case "Auto Open Page":
+                for key, values in reversed(list(search_function_results.items())):
+                    if len(values) >0:
+                        hyperlink_text = values[0]#sorting best later
+                        webbrowser.get('my_browser').open(hyperlink_text, new=0)
+                        break
+                #auto open in the order set in the dict,
+                # prioritize value in front since it's more accurate
+                
+
+    def insert_hyperlink(self, text, url):
+        """insert hyperlink to user logger"""#put url into text and url
+        self.SideBox1.configure(state='normal')
+        self.hyperlink_count += 1  # Increment counter
+        tag_name = f"hyperlink_{self.hyperlink_count}"
+        self.SideBox1.insert("0.0", "\n"+text+"\n", tag_name)
+        # Insert text with "hyperlink" tag
+
+        # Bind event to open URL on click
+        self.SideBox1.tag_bind(tag_name, "<Enter>",
+                               lambda event: self.SideBox1.configure(cursor="hand2"))
+
+        self.SideBox1.tag_bind(tag_name, "<Leave>",
+                               lambda event: self.SideBox1.configure(cursor="arrow"))
+
+        self.SideBox1.tag_bind(tag_name, "<Button-1>",
+                               lambda event, url=url: self.open_hyperlink(event, url))
+
+        self.SideBox1.tag_config(tag_name, foreground="blue")
+
+        self.SideBox1.configure(state='disabled')
+
+
+    def open_hyperlink(self, event, url=None):
+        """open link with user default browser"""
+        index = self.SideBox1.index("@%s,%s" % (event.x, event.y))
+        tag_name = self.SideBox1.tag_names(index)[0]  # Get the first tag
+
+        if tag_name.startswith("hyperlink_"):
+            ranges = self.SideBox1.tag_ranges(tag_name)
+            if ranges:
+                start, end = ranges[0], ranges[1]
+                hyperlink_text = self.SideBox1.get(start, end)
+                #print(hyperlink_text)
+
+                webbrowser.get('my_browser').open(hyperlink_text, new=0)
+                #webbrowser.open(hyperlink_text,new=0)
+
+    # def have_internet(self) -> bool:
+    #     """verify for internet"""
+    #     conn = httplib.HTTPSConnection("8.8.8.8", timeout=5)
+    #     try:
+    #         conn.request("HEAD", "/")
+    #         return True
+    #     except Exception:
+    #         print(Exception)
+    #         return False
+    #     finally:
+    #         conn.close()
 
 if __name__ == "__main__":
     app = GOTOWORKPEOPLE()

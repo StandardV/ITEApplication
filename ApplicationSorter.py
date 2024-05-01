@@ -1,5 +1,7 @@
 import os
-x=os.path.join(os.path.dirname(__file__), "List1.txt")#This path point to List1
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+x=os.path.join(current_dir,"List1.txt")#This path point to List1
 dicposition={}
 
 def sortLexico():#just to check if current list==sorted --> that's it()but remember when submit value: need to write those value to the end first

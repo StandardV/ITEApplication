@@ -2,5 +2,1500 @@ Hi there, User!
 This log will store history of all what you did, so WATCHOUT!!!! 
 Jk, feel free to explore around :) (log data will show on top within session tho)
 
+Switched value of 8th Wall (Houston) to True
 
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Argonauts (Houston) to True
+
+Switched value of Argonauts (Houston) to False
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of BGC Partners (Houston) to True
+
+Switched value of BGC Partners (Houston) to False
+
+Switched value of Call4Fix (Houston) to True
+
+Switched value of Call4Fix (Houston) to False
+
+Switched value of Call4Fix (Houston) to True
+
+Switched value of Call4Fix (Houston) to False
+
+Switched value of Cayan (Houston) to True
+
+Switched value of Cayan (Houston) to False
+
+Switched value of AgileThought (Houston) to True
+
+Switched value of AgileThought (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Argonauts (Houston) to True
+
+Switched value of Argonauts (Houston) to False
+
+Switched value of Argonauts (Houston) to True
+
+Switched value of Argonauts (Houston) to False
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Zillow (Nationwide) to True
+
+Switched value of Zillow (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Arbala Systems (Houston) to True
+
+Switched value of Arbala Systems (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+System: Toggled off value of 8th Wall (Houston) since the amount of time f2 has been met
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Allweb Technologies (Houston) to True
+
+Switched value of Allweb Technologies (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of AgileThought (Houston) to True
+
+Switched value of AgileThought (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of AgileThought (Houston) to True
+
+Switched value of AgileThought (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Amazon Robotics (Nationwide) to True
+
+Switched value of Amazon Robotics (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of AgileThought (Houston) to True
+
+Switched value of AgileThought (Houston) to False
+
+Switched value of AgileThought (Houston) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of AgileThought (Houston) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of AVEVA (Houston) to True
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Airbnb (Nationwide) to True
+
+Switched value of Allweb Technologies (Houston) to True
+
+Switched value of Airbnb (Nationwide) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of Allweb Technologies (Houston) to False
+
+Switched value of AVEVA (Houston) to False
+
+Switched value of Appen (Nationwide) to True
+
+Switched value of American Airline (Nationwide) to True
+
+Switched value of Amazon Robotics (Nationwide) to True
+
+Switched value of Amazon (Nationwide) to True
+
+Switched value of Appen (Nationwide) to False
+
+Switched value of Appen (Nationwide) to True
+
+Switched value of American Airline (Nationwide) to True
+
+Switched value of Amazon Robotics (Nationwide) to True
+
+Switched value of Amazon (Nationwide) to True
+
+Switched value of Allweb Technologies (Houston) to True
+
+Switched value of Appen (Nationwide) to False
+
+Switched value of American Airline (Nationwide) to False
+
+Switched value of Amazon Robotics (Nationwide) to False
+
+Switched value of Amazon (Nationwide) to False
+
+Switched value of Allweb Technologies (Houston) to False
+
+Switched value of Appen (Nationwide) to True
+
+Switched value of American Airline (Nationwide) to True
+
+Switched value of Amazon Robotics (Nationwide) to True
+
+Switched value of Amazon (Nationwide) to True
+
+Switched value of Allweb Technologies (Houston) to True
+
+Switched value of Appen (Nationwide) to False
+
+Switched value of Cognizant (Nationwide) to True
+
+Switched value of Cognizant (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Google (Nationwide) to True
+
+Switched value of Google (Nationwide) to False
+
+Added ['Oceanit (Houston, Hawaii)'] to the System
+
+Switched value of Oceanit (Houston, Hawaii) to True
+
+Added ['Google (Nationwide)'] to the System
+
+Added ['Google (Nationwide)'] to the System
+
+Added ['Google (Nationwide)'] to the System
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Switched value of 8th Wall (Houston) to True
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Switched value of 8th Wall (Houston) to False
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Switched value of Airbnb (Nationwide) to True
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Switched value of Airbnb (Nationwide) to True
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Deleted all instances of Airbnb (Nationwide) from the System
+
+Added ['Airbnb (Nationwide)'] to the System
+
+Added ['Thomson Reuters (Texas)'] to the System
+
+Switched value of Thomson Reuters (Texas) to True
+
+Added ['Oceanit (Hawaii, Houston)'] to the System
+
+Switched value of Oceanit (Hawaii, Houston) to True
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Thomson Reuters (Texas) to False
+
+Switched value of Oceanit (Hawaii, Houston) to False
+
+Deleted all instances of "Oceanit" from the System
+
+Switched value of Oceanit (Hawaii, Houston) to True
+
+Switched value of Thomson Reuters (Texas) to True
+
+Added ['Vertical Alt (Houston, C#)'] to the System
+
+Switched value of Vertical Alt (Houston, C#) to True
+
+Added ['Harris County (Housotn, Multiple language)'] to the System
+
+Deleted all instances of "Harris County (Housotn, Multiple language)" from the System
+
+Added ['Harris County (Houston, Multiple Language)'] to the System
+
+Switched value of Harris County (Houston, Multiple Language) to True
+
+Deleted all instances of "Hudson Trading" from the System
+
+Added ['Hudson Trading (New york)'] to the System
+
+Switched value of Hudson Trading (New york) to True
+
+Added ['NOV (Houston)'] to the System
+
+Switched value of NOV (Houston) to True
+
+Added ['Siemen (Nationwide)'] to the System
+
+Switched value of Siemen (Nationwide) to True
+
+Added ['BlackPearl Technology'] to the System
+
+Deleted all instances of "BlackPearl Technology" from the System
+
+Added ['Black Pearl Technology (Global)'] to the System
+
+Switched value of Black Pearl Technology (Global) to True
+
+Switched value of Oracle (Nationwide) to True
+
+Switched value of Tesla (Nationwide) to True
+
+Switched value of Amazon (Nationwide) to True
+
+Added ['JPMorgan Chase & Co. (Houston)', 'Microsoft (Houston)', 'Air Liquide (Houston)', 'Gene By Gene (Houston)', 'Halliburton (Houston)', 'Aspen Technology (Nationwide)', 'SnapStream (Nationwide)', 'PROS (Nationwide)', 'Cognite (Global)'] to the System
+
+Added ['Veera (Nationwide)', 'Circle (Nationwide)', 'Scale AI (Nationwide)', 'Bloomberg (Nationwide)', 'Lucid (Nationwide)'] to the System
+
+System: Toggled off value of Thomson Reuters (Texas) since the amount of time 6480000 has been met
+
+Switched value of Thomson Reuters (Texas) to False
+
+System: Toggled off value of Oceanit (Hawaii, Houston) since the amount of time 6480000 has been met
+
+Switched value of Oceanit (Hawaii, Houston) to False
+
+System: Toggled off value of Vertical Alt (Houston, C#) since the amount of time 6480000 has been met
+
+Switched value of Vertical Alt (Houston, C#) to False
+
+System: Toggled off value of Harris County (Houston, Multiple Language) since the amount of time 6480000 has been met
+
+Switched value of Harris County (Houston, Multiple Language) to False
+
+System: Toggled off value of Hudson Trading (New york) since the amount of time 6480000 has been met
+
+Switched value of Hudson Trading (New york) to False
+
+System: Toggled off value of NOV (Houston) since the amount of time 6480000 has been met
+
+Switched value of NOV (Houston) to False
+
+System: Toggled off value of Siemen (Nationwide) since the amount of time 6480000 has been met
+
+Switched value of Siemen (Nationwide) to False
+
+System: Toggled off value of Amazon (Nationwide) since the amount of time 6480000 has been met
+
+Switched value of Amazon (Nationwide) to False
+
+System: Toggled off value of Oracle (Nationwide) since the amount of time 6480000 has been met
+
+Switched value of Oracle (Nationwide) to False
+
+System: Toggled off value of Tesla (Nationwide) since the amount of time 6480000 has been met
+
+Switched value of Tesla (Nationwide) to False
+
+System: Toggled off value of Black Pearl Technology (Global) since the amount of time 6480000 has been met
+
+Switched value of Black Pearl Technology (Global) to False
+
+Added ['Enphase-energy (National)'] to the System
+
+Switched value of Enphase-energy (National) to True
+
+Added ['Vitesco Technology (Houston)'] to the System
+
+Switched value of Vitesco Technology (Houston) to True
+
+Added ['Dilligent robotic (Austin)'] to the System
+
+Switched value of Dilligent robotic (Austin) to True
+
+System: Toggled off value of Enphase-energy (National) since the amount of time 6480000 has been met
+
+Switched value of Enphase-energy (National) to False
+
+System: Toggled off value of Vitesco Technology (Houston) since the amount of time 6480000 has been met
+
+Switched value of Vitesco Technology (Houston) to False
+
+System: Toggled off value of Dilligent robotic (Austin) since the amount of time 6480000 has been met
+
+Switched value of Dilligent robotic (Austin) to False
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of AgileThought (Houston) to True
+
+Switched value of AgileThought (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of AgileThought (Houston) to True
+
+Switched value of AgileThought (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Accenture (Nationwide) to False
+
+Added ['Citadel (Global)'] to the System
+
+Added ['8th Wall (Houston)'] to the System
+
+Deleted all instances of "8th Wall (Houston)" from the System
+
+Added ['8th Wall (Houston)'] to the System
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Deleted all instances of "IBM (Houston)" from the System
+
+Switched value of Blackfin (Houston) to True
+
+Switched value of Blackfin (Houston) to False
+
+Switched value of Accenture (Nationwide) to True
+
+Switched value of Accenture (Nationwide) to False
+
+Switched value of Airbnb (Nationwide) to True
+
+Switched value of Airbnb (Nationwide) to False
+
+Added ['Microsoft (Global)', 'Apple (Global)', 'Alphabet (Global)', 'Amazon (Global)', 'Meta (Global)', 'Tesla (Global)', 'Nvidia (Global)', 'Salesforce (Global)', 'Adobe (Global)', 'IBM (Global)', 'Oracle (Global)', 'Intel (Global)', 'Qualcomm (Global)', 'Cisco Systems (Global)', 'HP Inc. (Global)', 'Dell Technologies (Global)', 'Netflix (Global)', 'Uber (Global)', 'Airbnb (Global)', 'SpaceX (Global)', 'Palantir Technologies (Global)', 'Coinbase (Global)', 'Stripe (Global)', 'Databricks (Global)', 'Snowflake (Global)', 'DoorDash (Nationwide)', 'Robinhood (Nationwide)'] to the System
+
+Deleted all instances of "NVIDIA Corporation (Nationwide)" from the System
+
+Added ['Broadcom Inc. (Global)', 'Accenture (Global)', 'VMware (Global)', 'ServiceNow (Global)', 'Automatic Data Processing (Global)', 'Intuit (Global)', 'CrowdStrike (Global)', 'Workday (Global)', 'Shopify (Global)', 'Roblox Corporation (Global)', 'Unity Software (Global)', 'Twilio (Global)', 'Block (Global)', 'Zoom Video Communications (Global)', 'DocuSign (Global)', 'Dropbox (Global)', 'Pinterest (Global)', 'Atlassian (Global)', 'Expedia Group (Global)', 'Lyft (Nationwide)'] to the System
+
+Added [] to the System
+
+Added [] to the System
+
+Deleted all instances of "Zoom Video Communications (Global)" from the System
+
+Added ['Zoom (Global)'] to the System
+
+Switched value of IBM (Nationwide) to True
+
+Switched value of IBM (Nationwide) to False
+
+Deleted all instances of "IBM (Nationwide)" from the System
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of Accenture (Global) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Nationwide) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of Accenture (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of Accenture (Global) to True
+
+Switched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of Accenture (Global) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Nationwide) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of Accenture (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of 8th Wall (Houston) to False
+
+Switched value of Veera (Nationwide) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs
+https://money.usnews.com/careers/career-match-quiz
+https://money.usnews.com/careers/best-jobs/nurse-practitioner
+https://money.usnews.com/careers/best-jobs/financial-managerSwitched value of Veera (Nationwide) to False
+
+Switched value of Universal Robots (Nationwide) to True
+
+Switched value of VMware (Global) to True
+
+Switched value of Veera (Nationwide) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://www.indeed.com/q-indeed-jobs.html
+https://www.indeed.com/cmp/Indeed/jobs
+https://www.indeed.com/cmp/Accenture/jobs
+https://www.indeed.com/hirehttps://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://www.indeed.com/q-indeed-jobs.html
+https://www.indeed.com/cmp/Indeed/jobs
+https://www.indeed.com/cmp/Accenture/jobs
+https://www.indeed.com/hirehttps://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://www.indeed.com/q-indeed-jobs.html
+https://www.indeed.com/cmp/Indeed/jobs
+https://www.indeed.com/cmp/Accenture/jobs
+https://www.indeed.com/hireSwitched value of Universal Robots (Nationwide) to False
+
+Switched value of VMware (Global) to False
+
+Switched value of Veera (Nationwide) to False
+
+Switched value of Black Pearl Technology (Global) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://www.indeed.com/q-indeed-jobs.html
+https://www.indeed.com/cmp/Indeed/jobs
+https://www.indeed.com/cmp/Accenture/jobs
+https://www.indeed.com/hireSwitched value of Black Pearl Technology (Global) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://www.indeed.com/q-indeed-jobs.html
+https://www.indeed.com/cmp/Indeed/jobs
+https://www.indeed.com/cmp/Accenture/jobs
+https://www.indeed.com/hireSwitched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://www.indeed.com/q-indeed-jobs.html
+https://www.indeed.com/cmp/Indeed/jobs
+https://www.indeed.com/cmp/Accenture/jobs
+https://www.indeed.com/hireSwitched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.houstontx.gov/hr/careers.html
+https://www.houstontx.gov/hr/gyow.html
+https://www.houstontx.gov/hr/benefits.html
+https://www.houstontx.gov/hr/careers/careers_faqs.html
+https://www.houstontx.gov/hr/careers/careers_howtoapply.html
+https://www.indeed.com/
+https://www.indeed.com/q-indeed-jobs.html
+https://www.indeed.com/cmp/Indeed/jobs
+https://www.indeed.com/cmp/Accenture/jobs
+https://www.indeed.com/hireSwitched value of 8th Wall (Houston) to False
+
+Switched value of Black Pearl Technology (Global) to True
+
+https://blackpearltechnology.com/
+https://www.linkedin.com/company/blackpearltechnology
+http://blackpearl.technology.s3-website-ap-southeast-1.amazonaws.com/content/interactive/careers.html
+https://www.salary.com/research/company/black-pearl-technology/manager-operations-salary?cjid=19021611
+https://blackpearlstechnology.com/career/
+https://www.facebook.com/theblackpearltech/
+https://www.glassdoor.com/Overview/Working-at-Black-Pearl-EI_IE4467814.11,22.htm
+https://blackpearl.us/
+https://www.salary.com/research/company/black-pearl-technology-salary
+https://www.indeed.com/q-black-pearl-group-jobs.htmlSwitched value of 8th Wall (Houston) to True
+
+https://www.8thwall.com/company
+https://www.8thwall.com/aircards/bt-careers
+https://www.linkedin.com/jobs/8th-wall-jobs-worldwide
+https://www.linkedin.com/company/8thwall
+https://www.glassdoor.com/Overview/Working-at-8th-Wall-EI_IE6684018.11,19.htm
+https://www.8thwall.com/discover/business
+https://boards.greenhouse.io/niantic8thwall
+https://forum.8thwall.com/c/job-board/12
+https://www.indeed.com/q-8th-wall-jobs.html
+https://www.8thwall.com/aircards/pot-noodleSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.8thwall.com/company
+https://www.8thwall.com/aircards/bt-careers
+https://www.linkedin.com/jobs/8th-wall-jobs-worldwide
+https://www.linkedin.com/company/8thwall
+https://www.glassdoor.com/Overview/Working-at-8th-Wall-EI_IE6684018.11,19.htm
+https://www.8thwall.com/discover/business
+https://boards.greenhouse.io/niantic8thwall
+https://forum.8thwall.com/c/job-board/12
+https://www.indeed.com/q-8th-wall-jobs.html
+https://www.8thwall.com/aircards/pot-noodleSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.8thwall.com/company
+https://www.8thwall.com/aircards/bt-careers
+https://www.linkedin.com/jobs/8th-wall-jobs-worldwide
+https://www.linkedin.com/company/8thwall
+https://www.glassdoor.com/Overview/Working-at-8th-Wall-EI_IE6684018.11,19.htm
+https://www.8thwall.com/discover/business
+https://boards.greenhouse.io/niantic8thwall
+https://forum.8thwall.com/c/job-board/12
+https://www.indeed.com/q-8th-wall-jobs.html
+https://www.8thwall.com/aircards/pot-noodleSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.8thwall.com/company
+https://www.8thwall.com/aircards/bt-careers
+https://www.linkedin.com/jobs/8th-wall-jobs-worldwide
+https://www.linkedin.com/company/8thwall
+https://www.glassdoor.com/Overview/Working-at-8th-Wall-EI_IE6684018.11,19.htm
+https://www.8thwall.com/discover/business
+https://boards.greenhouse.io/niantic8thwall
+https://forum.8thwall.com/c/job-board/12
+https://www.indeed.com/q-8th-wall-jobs.html
+https://www.8thwall.com/aircards/pot-noodleSwitched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+https://www.accenture.com/us-en/careers
+https://www.linkedin.com/jobs/accenture-jobs-houston-tx
+https://www.indeed.com/q-accenture-l-houston,-tx-jobs.html
+https://www.indeed.com/q-accenture-l-texas-jobs.html
+https://www.ziprecruiter.com/Jobs/Accenture/--in-Texas
+https://www.glassdoor.com/Jobs/Accenture-Houston-Jobs-EI_IE4138.0,9_IL.10,17_IC1140171.htm
+https://www.ziprecruiter.com/Jobs/Accenture/-in-Houston,TX
+https://accenture.wd3.myworkdayjobs.com/AccentureCareers
+https://www.linkedin.com/jobs/job-accenture-jobs-houston-tx
+https://www.glassdoor.com/Jobs/accenture-Jobs-E4138.htmSwitched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.8thwall.com/company
+https://www.8thwall.com/aircards/bt-careers
+https://www.linkedin.com/jobs/8th-wall-jobs-worldwide
+https://www.linkedin.com/company/8thwall
+https://www.glassdoor.com/Overview/Working-at-8th-Wall-EI_IE6684018.11,19.htm
+https://www.8thwall.com/discover/business
+https://boards.greenhouse.io/niantic8thwall
+https://forum.8thwall.com/c/job-board/12
+https://www.indeed.com/q-8th-wall-jobs.html
+https://www.8thwall.com/aircards/pot-noodleSwitched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+https://www.accenture.com/us-en/careers
+https://www.linkedin.com/jobs/accenture-jobs-houston-tx
+https://www.indeed.com/q-accenture-l-houston,-tx-jobs.html
+https://www.indeed.com/q-accenture-l-texas-jobs.html
+https://www.ziprecruiter.com/Jobs/Accenture/--in-Texas
+https://www.glassdoor.com/Jobs/Accenture-Houston-Jobs-EI_IE4138.0,9_IL.10,17_IC1140171.htm
+https://www.ziprecruiter.com/Jobs/Accenture/-in-Houston,TX
+https://accenture.wd3.myworkdayjobs.com/AccentureCareers
+https://www.linkedin.com/jobs/job-accenture-jobs-houston-tx
+https://www.glassdoor.com/Jobs/accenture-Jobs-E4138.htmSwitched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.8thwall.com/company
+https://www.8thwall.com/aircards/bt-careers
+https://www.linkedin.com/jobs/8th-wall-jobs-worldwide
+https://www.linkedin.com/company/8thwall
+https://www.glassdoor.com/Overview/Working-at-8th-Wall-EI_IE6684018.11,19.htm
+https://www.8thwall.com/discover/business
+https://boards.greenhouse.io/niantic8thwall
+https://forum.8thwall.com/c/job-board/12
+https://www.indeed.com/q-8th-wall-jobs.html
+https://www.8thwall.com/aircards/pot-noodleSwitched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+https://www.accenture.com/us-en/careers
+https://www.linkedin.com/jobs/accenture-jobs-houston-tx
+https://www.indeed.com/q-accenture-l-houston,-tx-jobs.html
+https://www.indeed.com/q-accenture-l-texas-jobs.html
+https://www.ziprecruiter.com/Jobs/Accenture/--in-Texas
+https://www.glassdoor.com/Jobs/Accenture-Houston-Jobs-EI_IE4138.0,9_IL.10,17_IC1140171.htm
+https://www.ziprecruiter.com/Jobs/Accenture/-in-Houston,TX
+https://accenture.wd3.myworkdayjobs.com/AccentureCareers
+https://www.linkedin.com/jobs/job-accenture-jobs-houston-tx
+https://www.glassdoor.com/Jobs/accenture-Jobs-E4138.htmSwitched value of Accenture (Global) to False
+
+Switched value of Accenture (Nationwide) to True
+
+https://www.accenture.com/us-en/careers
+https://www.linkedin.com/jobs/accenture-jobs-houston-tx
+https://www.indeed.com/q-accenture-l-houston,-tx-jobs.html
+https://www.indeed.com/q-accenture-l-texas-jobs.html
+https://www.ziprecruiter.com/Jobs/Accenture/--in-Texas
+https://www.glassdoor.com/Jobs/Accenture-Houston-Jobs-EI_IE4138.0,9_IL.10,17_IC1140171.htm
+https://www.ziprecruiter.com/Jobs/Accenture/-in-Houston,TX
+https://accenture.wd3.myworkdayjobs.com/AccentureCareers
+https://www.linkedin.com/jobs/job-accenture-jobs-houston-tx
+https://www.glassdoor.com/Jobs/accenture-Jobs-E4138.htmSwitched value of Accenture (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+https://www.adepttech.com/careers.html
+https://www.indeed.com/cmp/Adept-Technologies,-LLC/locations/AL/Huntsville
+https://www.indeed.com/cmp/Adept-Technologies,-LLC
+https://www.adept.ai/careers
+https://www.adept-techconsulting.com/careers/
+https://adept-tech.us/careers/
+https://boards.greenhouse.io/adept
+https://www.ziprecruiter.com/Jobs/Adept-Technology
+https://www.glassdoor.com/Jobs/Adept-Technologies-AL-Jobs-E5202447.htm
+https://adepttechservices.com/careers/Switched value of Adept Technology (Nationwide) to False
+
+Switched value of Adobe (Global) to True
+
+https://www.adobe.com/careers.html
+https://www.adobe.com/careers/teams/engineering-and-product.html
+https://www.adobe.com/careers/teams/marketing-and-strategy.html
+https://www.adobe.com/careers/teams/sales-and-customer-experience.html
+https://careers.adobe.com/us/en/
+https://careers.adobe.com/us/en/search-results
+https://careers.adobe.com/us/en/Interns
+https://rewards.adobe.com/
+https://www.adobe.com/careers/interviewing-at-adobe.html
+https://careers.adobe.com/us/en/job/R141275/2024-Intern-Research-Scientist-EngineerSwitched value of Adobe (Global) to False
+
+Switched value of AgileThought (Houston) to True
+
+https://agilethought.com/careers/
+https://www.linkedin.com/company/agilethought/jobs
+https://agilethought.com/
+https://agilethought.com/guilds/
+https://agilethought.com/work/
+https://www.indeed.com/cmp/Agilethought
+https://www.indeed.com/cmp/Agile-Thought
+https://www.linkedin.com/jobs/agilethought-jobs-worldwide
+https://builtin.com/company/agilethought/jobs
+https://recruiting.paylocity.com/recruiting/jobs/All/e77c0786-c566-4fff-b105-489e0c21b6d6/AGILETHOUGHT-LLCSwitched value of 8th Wall (Houston) to True
+
+https://www.8thwall.com/company
+https://www.8thwall.com/aircards/bt-careers
+https://www.linkedin.com/jobs/8th-wall-jobs-worldwide
+https://www.linkedin.com/company/8thwall
+https://www.glassdoor.com/Overview/Working-at-8th-Wall-EI_IE6684018.11,19.htm
+https://www.8thwall.com/discover/business
+https://boards.greenhouse.io/niantic8thwall
+https://forum.8thwall.com/c/job-board/12
+https://www.indeed.com/q-8th-wall-jobs.html
+https://www.8thwall.com/aircards/pot-noodleSwitched value of AgileThought (Houston) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+https://www.accenture.com/us-en/careers
+https://www.linkedin.com/jobs/accenture-jobs-houston-tx
+https://www.indeed.com/q-accenture-l-houston,-tx-jobs.html
+https://www.indeed.com/q-accenture-l-texas-jobs.html
+https://www.ziprecruiter.com/Jobs/Accenture/--in-Texas
+https://www.glassdoor.com/Jobs/Accenture-Houston-Jobs-EI_IE4138.0,9_IL.10,17_IC1140171.htm
+https://www.ziprecruiter.com/Jobs/Accenture/-in-Houston,TX
+https://accenture.wd3.myworkdayjobs.com/AccentureCareers
+https://www.linkedin.com/jobs/job-accenture-jobs-houston-tx
+https://www.glassdoor.com/Jobs/accenture-Jobs-E4138.htmSwitched value of 8th Wall (Houston) to True
+
+https://www.8thwall.com/company
+https://www.8thwall.com/aircards/bt-careers
+https://www.linkedin.com/jobs/8th-wall-jobs-worldwide
+https://www.linkedin.com/company/8thwall
+https://www.glassdoor.com/Overview/Working-at-8th-Wall-EI_IE6684018.11,19.htm
+https://www.8thwall.com/discover/business
+https://boards.greenhouse.io/niantic8thwall
+https://forum.8thwall.com/c/job-board/12
+https://www.indeed.com/q-8th-wall-jobs.html
+https://www.8thwall.com/aircards/pot-noodleSwitched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to False
+
+Switched value of Accenture (Nationwide) to True
+
+https://www.accenture.com/us-en/careers
+https://www.linkedin.com/jobs/accenture-jobs-houston-tx
+https://www.indeed.com/q-accenture-l-houston,-tx-jobs.html
+https://www.indeed.com/q-accenture-l-texas-jobs.html
+https://www.ziprecruiter.com/Jobs/Accenture/--in-Texas
+https://www.glassdoor.com/Jobs/Accenture-Houston-Jobs-EI_IE4138.0,9_IL.10,17_IC1140171.htm
+https://www.ziprecruiter.com/Jobs/Accenture/-in-Houston,TX
+https://accenture.wd3.myworkdayjobs.com/AccentureCareers
+https://www.linkedin.com/jobs/job-accenture-jobs-houston-tx
+https://www.glassdoor.com/Jobs/accenture-Jobs-E4138.htmSwitched value of Adept Technology (Nationwide) to True
+
+https://www.adepttech.com/careers.html
+https://www.indeed.com/cmp/Adept-Technologies,-LLC/locations/AL/Huntsville
+https://www.indeed.com/cmp/Adept-Technologies,-LLC
+https://www.adept.ai/careers
+https://www.adept-techconsulting.com/careers/
+https://adept-tech.us/careers/
+https://boards.greenhouse.io/adept
+https://www.ziprecruiter.com/Jobs/Adept-Technology
+https://www.glassdoor.com/Jobs/Adept-Technologies-AL-Jobs-E5202447.htm
+https://adepttechservices.com/careers/Switched value of Accenture (Nationwide) to False
+
+Switched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+https://www.8thwall.com/company
+https://www.8thwall.com/aircards/bt-careers
+https://www.linkedin.com/jobs/8th-wall-jobs-worldwide
+https://www.linkedin.com/company/8thwall
+https://www.glassdoor.com/Overview/Working-at-8th-Wall-EI_IE6684018.11,19.htm
+https://www.8thwall.com/discover/business
+https://boards.greenhouse.io/niantic8thwall
+https://forum.8thwall.com/c/job-board/12
+https://www.indeed.com/q-8th-wall-jobs.html
+https://www.8thwall.com/aircards/pot-noodleSwitched value of 8th Wall (Houston) to False
+
+Switched value of Black Pearl Technology (Global) to False
+
+Switched value of Black Pearl Technology (Global) to True
+
+https://blackpearltechnology.com/
+https://www.linkedin.com/company/blackpearltechnology
+http://blackpearl.technology.s3-website-ap-southeast-1.amazonaws.com/content/interactive/careers.html
+https://www.salary.com/research/company/black-pearl-technology/manager-operations-salary?cjid=19021611
+https://blackpearlstechnology.com/career/
+https://www.facebook.com/theblackpearltech/
+https://www.glassdoor.com/Overview/Working-at-Black-Pearl-EI_IE4467814.11,22.htm
+https://blackpearl.us/
+https://www.salary.com/research/company/black-pearl-technology-salary
+https://www.indeed.com/cmp/Pearl-TechnologySwitched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+Switched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+Company Career PageCompany LinkedInOthersSwitched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of Adept Technology (Nationwide) to True
+
+Company Career PageOthersSwitched value of Adept Technology (Nationwide) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to False
+
+Switched value of Black Pearl Technology (Global) to False
+
+Switched value of Black Pearl Technology (Global) to True
+
+Company Career PageCompany Direct WebsiteCompany LinkedInOthersSwitched value of 8th Wall (Houston) to True
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of Accenture (Global) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to True
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+OthersCompany LinkedInCompany Career PageSwitched value of Accenture (Global) to False
+
+
+Apply Mode is nowAuto Open Page
+Switched value of 8th Wall (Houston) to True
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+Others
+Company LinkedIn
+Company Career Page
+Switched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to True
+
+Others
+Company Direct Website
+Company LinkedIn
+Company Career Page
+Switched value of 8th Wall (Houston) to False
+
+Apply Mode is nowDisplay Top Option
+
+Switched value of 8th Wall (Houston) to True
+
+Others
+Company Direct Website
+Company LinkedIn
+Company Career Page
+Switched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+
+OthersCompany LinkedInCompany Career PageSwitched value of Accenture (Global) to False
+
+Apply Mode is nowDisplay Top Option
+
+Switched value of 8th Wall (Houston) to True
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of Accenture (Global) to True
+
+No internet available for web searchSwitched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+No internet available for web searchSwitched value of 8th Wall (Houston) to False
+
+Switched value of 8th Wall (Houston) to True
+
+No internet available for web searchSwitched value of 8th Wall (Houston) to False
+
+Switched value of Accenture (Global) to True
+
+No internet available for web searchSwitched value of Accenture (Global) to False
+
+Switched value of 8th Wall (Houston) to True
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to False
+
+Switched value of Alphabet (Global) to True
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of Alphabet (Global) to False
+
+
+OthersCompany LinkedInCompany Career PageApply Mode is nowAuto Open Page
+
+Added ['Axiom Space (Global)'] to the System
 
