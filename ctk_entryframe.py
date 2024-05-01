@@ -86,7 +86,7 @@ class CTkEntryFrame(CTkToplevel):
         self.after(150, lambda: self._entry.focus())  # set focus to entry with slight delay, otherwise it won't work
         self._entry.bind("<Return>", self._ok_event)
         self.glob=''
-        
+
     def _ok_event(self, event=None):
         self._user_input = self._entry.get()
         self.grab_release()

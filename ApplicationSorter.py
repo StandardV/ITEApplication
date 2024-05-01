@@ -6,7 +6,7 @@ dicposition={}
 
 def sortLexico():#just to check if current list==sorted --> that's it()but remember when submit value: need to write those value to the end first
     with open(x,'r') as f:
-        Lines=f.read().splitlines()     
+        Lines=f.read().splitlines()
     Lines=sorted(Lines)
     for i,val in enumerate(Lines):
         dicposition[val]=i

@@ -1499,3 +1499,8 @@ OthersCompany LinkedInCompany Career PageApply Mode is nowAuto Open Page
 
 Added ['Axiom Space (Global)'] to the System
 
+Switched value of 8th Wall (Houston) to True
+
+
+OthersCompany Direct WebsiteCompany LinkedInCompany Career PageSwitched value of 8th Wall (Houston) to False
+

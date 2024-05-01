@@ -51,7 +51,6 @@ class COMPANYPARSER():
 
         return predict_result
 
-
     def name_process_n_parsing(self, name_input):
         """parse input name and run it through model"""
         temp_company_name = ""
