@@ -1,6 +1,12 @@
 import os
+import sys
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
+if getattr(sys, 'frozen', False):
+    # If the application is run as a bundle (e.g., PyInstaller executable)
+    current_dir = os.path.dirname(sys.executable)
+else:
+    # If the application is run as a script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
 x=os.path.join(current_dir,"List1.txt")#This path point to List1
 dicposition={}
 

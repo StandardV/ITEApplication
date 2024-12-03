@@ -1,4 +1,5 @@
 """Quicksearch tool for jobs"""
+import sys
 import os
 import joblib
 from googlesearch import search
@@ -8,7 +9,14 @@ class COMPANYPARSER():
     """parse company name and run it through model classifer"""
     def __init__(self):
         #threading.Thread.__init__(self, daemon=True)
-        current_dir = os.path.dirname(os.path.abspath(__file__))
+        if getattr(sys, 'frozen', False):
+            # If the application is run as a bundle (e.g., PyInstaller executable)
+            current_dir = os.path.dirname(sys.executable)
+        else:
+            # If the application is run as a script
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+
+
         self.query = "BlackPearl Technology"
         self.model_path = os.path.join(current_dir,"hyperlinkclassification.pkl")
 
@@ -24,7 +32,7 @@ class COMPANYPARSER():
         self.query = company
         query_add = " careers"
         self.query += query_add
-
+        #print("company is:",company)
         links = []
         for j in search(self.query, tld="co.in", num=10, stop=10, pause=2):
             links.append(j)

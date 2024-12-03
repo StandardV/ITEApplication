@@ -2,21 +2,28 @@ import threading
 import pickle
 import os
 import time
+import webbrowser
+import winreg
 import customtkinter as ct
+import Levenshtein
 import ApplicationSorter
 from multiprocessing import Pool
 from ctk_entryframe import CTkEntryFrame
 from smallServer import Searchfunction
 
-import webbrowser
-import winreg
+
+import sys
+
+
+
+
+
+
 
 # try:
 #     import httplib  # python < 3.0
 # except:
 #     import http.client as httplib
-
-
 
 
 ct.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
@@ -25,16 +32,26 @@ ct.set_default_color_theme("green")  # Themes: "blue" (standard), "green", "dark
 
 class GOTOWORKPEOPLE(ct.CTk):
     """Provide customtkinter Gui"""
-    def __init__(self):
+    def __init__(self, chrome_path = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"):
         super().__init__()
-        current_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Get the directory where the executable is located
+
+        if getattr(sys, 'frozen', False):
+            # If the application is run as a bundle (e.g., PyInstaller executable)
+            current_dir = os.path.dirname(sys.executable)
+        else:
+            # If the application is run as a script
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+
+
         #backend_path = os.path.join(current_dir,"smallServer")
         self.name_search_function = Searchfunction.COMPANYPARSER()
         self.hyperlink_count =0
-
-        self.name='Vuong Duong' #Change this for changing users name
+        self.log_max_lines = 1000
+        self.name='URL Prediction' #Change this for changing users name
         self.default_state='Lexicographically'
-        self.default_check_option = "Display all"# for applying mode
+        self.default_check_option = "Auto Open Page"# for applying mode
         self.wait_time=6480000#Time Range that program will toggled off
                                 #already marked companies by itself so that you could reapply
         self.company_path= os.path.join(current_dir, "List1.txt")
@@ -55,7 +72,9 @@ class GOTOWORKPEOPLE(ct.CTk):
 
         # Clean up the path (remove quotes and any additional arguments)
         self.default_browser_path = default_browser_path.split('"')[1]
-        webbrowser.register('my_browser', None, webbrowser.BackgroundBrowser(self.default_browser_path))
+        webbrowser.register('my_browser', None,
+                            webbrowser.BackgroundBrowser(chrome_path))#if want edge then do self.default_browser_path
+
         print(self.default_browser_path)
 
 
@@ -110,7 +129,8 @@ class GOTOWORKPEOPLE(ct.CTk):
         for i,val in enumerate(self.company_display_track):
             switch = ct.CTkSwitch(master=self.scrollable_frame,
                                   text=val,command=lambda charac=val,
-                                  index=i: self.changestate(charac,index))#lambda index=i: self.changestate(index)
+                                  index=i: self.changestate(charac,index))
+                                #lambda index=i: self.changestate(index)
             switch.grid(row=i, column=0, padx=10, pady=(0, 20))
             self.scrollable_frame_switches.append(switch)
 
@@ -185,29 +205,42 @@ class GOTOWORKPEOPLE(ct.CTk):
         self.colorchanger1.grid(row=0,column=0,padx=5,pady=5,sticky='nsew')
 
         self.sort_apply_event=ct.CTkOptionMenu(master=self.SideFrame2,
-                                               values=["Display all",
-                                                       "Display Top Option",
-                                                       "Auto Open Page"],
+                                               values=["Auto Open Page",
+                                                       "Display all",
+                                                       "Display Top Option"
+                                                       ],
                                                command=self.parsing_event)
 
         self.sort_apply_event.grid(row=2,column=0,padx=5,pady=5,sticky='new')
 
         self.SideBox1=ct.CTkTextbox(master=self.SideFrame2,
                                     text_color='gray')#right side config box  , height=150
-        
+
         self.SideBox1.grid(row=1, column=0, padx=5, pady=(0, 0), sticky='nsew')
-        
+
         #self.SideBox1.bind("<Button-1>", self.open_hyperlink)
 
         #self.right_side_box2=ct.CTkTextbox(master=self.SideFrame2,text_color='gray')#right side config box
         #self.right_side_box2.grid(row=3,column=0,padx=5,pady=(0,5),sticky='nsew')
 
         #log content
-        with open(self.log_path,'r') as f:
-            Lines2=f.readlines()
-            curprint="".join(Lines2)
-            self.SideBox1.insert("0.0",curprint)
-            self.SideBox1.configure(state='disabled')
+
+        with open(self.log_path, 'r') as f:
+            lines = f.readlines()
+            last_lines = lines[-self.log_max_lines:]  # Retain only the last max lines
+
+        # Write back the trimmed log content
+        with open(self.log_path, 'w') as f:
+            f.writelines(last_lines)
+
+        display_input = "Hi there, User!\nThis log will store history of all what you did, so WATCHOUT!!!! \nJk, feel free to explore around :) (log data will show on top within session tho)\n\n"
+        #with open(self.log_path,'r') as f:
+        #    Lines2=f.readlines()
+        curprint="".join(last_lines)
+        self.SideBox1.insert("0.0",curprint)
+        self.SideBox1.insert("0.0",display_input)
+        self.SideBox1.configure(state='disabled')
+
 
         #Retrieve Pickle dictionary data  for True and False state of Switch
         with open(self.dictionary_path, "rb") as f:#dictionary to keep track of true false state
@@ -227,7 +260,8 @@ class GOTOWORKPEOPLE(ct.CTk):
                 log=f'System: Toggled off value of {str(i)} since the amount of time {str(self.wait_time)} has been met\n\n'
                 self.logging(log)
                 self.scrollable_frame_switches[self.dicposition[i]].toggle()
-                #deselect if specific time of daterange meet: in this case, set as 75 days from the time of checking
+                #deselect if specific time of daterange meet: 
+                #           in this case, set as 75 days from the time of checking
 
 
     def trigger_testing(self):
@@ -255,18 +289,19 @@ class GOTOWORKPEOPLE(ct.CTk):
             self.sortevent(self.default_state)
 
 
-        #self.logging()
-    def sortevent(self,currentval):# Sorting
-        """sort mode for value"""
-        self.default_state= currentval
-        self.scanli1=[i for i in self.dictoggle if self.dictoggle[i] is True]
+    def sortevent(self, currentval):
+        """Back up sort mode for value"""#roll back should any error occur
+        self.default_state = currentval
+        scanli1 = [i for i in self.dictoggle if self.dictoggle[i]]
+
         if currentval == 'Lexicographically':
-            temp=self.company_display_track
+            temp = self.company_display_track
         elif currentval == 'Applied':
-            temp=self.scanli1
+            temp = scanli1
         else:
-            temp=[i for i in self.company_display_track if i not in self.scanli1]
-        self.scrollable_frame.destroy()
+            temp = [i for i in self.company_display_track if i not in scanli1]
+
+        #self.scrollable_frame.destroy()#a way to destroy and make new frame but make it slower
         self.scrollable_frame = ct.CTkScrollableFrame(master=self.SideFrame,
                                                       label_text="Application List")
         self.scrollable_frame.grid(row=1,
@@ -277,24 +312,24 @@ class GOTOWORKPEOPLE(ct.CTk):
                                    pady=(10, 0),
                                    sticky="nsew")
         self.scrollable_frame.grid_columnconfigure(0, weight=1)
-        self.scrollable_frame_switches = []
-        tempLi={}
-        for i,val in enumerate(temp):
-            tempLi[val]= i
-        for i,val in enumerate(temp):
+
+        for i, val in enumerate(temp):#re make new switch
             switch = ct.CTkSwitch(master=self.scrollable_frame,
-                                  text=val,command=lambda charac=val,
-                                  index=i: self.changestate(charac,index))#lambda index=i: self.changestate(index)
+                                   text=val,
+                                   command=lambda charac=val,
+                                   index=i: self.changestate(charac, index))
             switch.grid(row=i, column=0, padx=10, pady=(0, 20))
-            self.scrollable_frame_switches.append(switch)
-        if len(self.scanli1) !=0 and currentval != 'Not Yet Applied':
-            for i in self.scanli1:
-                self.scrollable_frame_switches[tempLi[i]].select()
+
+            if len(scanli1) != 0 and currentval != 'Not Yet Applied':
+                if val in scanli1:
+                    switch.select()
+        self.scrollable_frame.update()   # a way to update without having to destroy
+
 
     def parsing_event(self, selected_value:str):
         """switch value of auto parser for opening mode"""
         self.default_check_option = selected_value
-        self.logging(f"Apply Mode is now{selected_value}\n\n")
+        self.logging(f"Apply Mode is now {selected_value}\n\n")
 
 
     def change_apply_mode(self,apply_mode):# Sorting
@@ -376,7 +411,6 @@ class GOTOWORKPEOPLE(ct.CTk):
         #search_function_results in form of a dictionary
         search_function_results = {}
         search_function_results = self.name_search_function.run(company_name)
-
         #print("I came to the function")
         match self.default_check_option:
             case "Display all":#parse through all items and print each key values pair
@@ -395,24 +429,26 @@ class GOTOWORKPEOPLE(ct.CTk):
                 self.logging("\n")#add in a space at the end for better visualization
                 for key, values in search_function_results.items():
                     if len(values) >0:
-                        self.insert_hyperlink(values[0],values[0])#sorting best later
+                        best_hyperlink_option = self.find_best_match(company_name , values)
+                        self.insert_hyperlink(best_hyperlink_option,best_hyperlink_option)
+                        #sorting best later
                         self.logging(key)
                 #pick the shortest, but also pick the most matching,
                 #      most matching should take priority
                 #display 1 of each type, prioritize the smallest len,
-
 
                 #development, caching the value incase it will be re-toggled
 
             case "Auto Open Page":
                 for key, values in reversed(list(search_function_results.items())):
                     if len(values) >0:
-                        hyperlink_text = values[0]#sorting best later
+                        hyperlink_text = self.find_best_match(company_name , values)
+                        #hyperlink_text = values[0]#sorting best later
                         webbrowser.get('my_browser').open(hyperlink_text, new=0)
                         break
                 #auto open in the order set in the dict,
                 # prioritize value in front since it's more accurate
-                
+
 
     def insert_hyperlink(self, text, url):
         """insert hyperlink to user logger"""#put url into text and url
@@ -463,6 +499,19 @@ class GOTOWORKPEOPLE(ct.CTk):
     #         return False
     #     finally:
     #         conn.close()
+
+    def find_best_match(self,reference_string, string_list):
+        """check best match from company name and pick best hyperlink with score rating"""
+        best_match = None
+        best_distance = float('inf')  # Initialize with a large value
+
+        for string in string_list:
+            distance = Levenshtein.distance(reference_string, string)
+            if distance < best_distance:
+                best_distance = distance
+                best_match = string
+
+        return best_match
 
 if __name__ == "__main__":
     app = GOTOWORKPEOPLE()
